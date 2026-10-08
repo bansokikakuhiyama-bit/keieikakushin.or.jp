@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>一般社団法人 経営革新協会｜経営者の学び・交流・成長を支援するコミュニティ</title>
+
+  <meta name="description"
+    content="一般社団法人経営革新協会は、中小企業経営者の学び・交流・経営革新を支援するコミュニティです。経営革新計画の策定支援、勉強会、原田塾、経営者交流会を通じて企業成長をサポートします。">
+
+  <meta name="keywords" content="経営革新協会,経営革新計画,経営者交流会,中小企業支援,経営者コミュニティ,原田塾,補助金,経営戦略,経営者勉強会,異業種交流">
+
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="一般社団法人 経営革新協会">
+  <meta property="og:description" content="学び、つながり、実行する。経営を前に進める経営者コミュニティ。">
+  <meta property="og:url" content="https://keieikakushin.or.jp/">
+  <meta property="og:image"
+    content="https://banso-preview1.site/wp-content/uploads/2026/06/AdobeStock_512933483-scaled.jpeg">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://keieikakushin.or.jp/">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <button class="header-logo" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="トップへ戻る">
+        <div class="logo-icon">
+          <img src="https://banso-preview1.site/wp-content/uploads/2026/06/cropped-favicon-1.png" alt="ロゴ">
+        </div>
+        <div>
+          <div class="logo-text-sub">一般社団法人</div>
+          <div class="logo-text-main">経営革新協会</div>
+        </div>
+      </button>
+
+      <nav class="header-nav" aria-label="メインナビゲーション">
+        <button onclick="smoothScroll('#about')">経営革新協会とは</button>
+        <button onclick="smoothScroll('#programs')">活動内容</button>
+        <button onclick="smoothScroll('#course')">実践講座</button>
+        <button onclick="smoothScroll('#benefits')">ベネフィット</button>
+        <button onclick="smoothScroll('#pricing')">入会案内</button>
+        <button onclick="smoothScroll('#faq')">よくある質問</button>
+        <button onclick="smoothScroll('#profile')">協会概要</button>
+      </nav>
+
+      <div class="header-cta">
+        <button class="btn btn-sm btn-outline"
+          onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+          入会を検討する
+        </button>
+
+        <button class="btn btn-sm btn-primary"
+          onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+          まずは相談する
+        </button>
+      </div>
+
+      <button class="mobile-menu-btn" onclick="toggleMobile()" aria-label="メニューを開く">
+        <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobile()"></div>
+  <div class="mobile-panel" id="mobilePanel">
+    <button class="mobile-close" onclick="toggleMobile()" aria-label="メニューを閉じる">
+      <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+    <div class="mobile-nav">
+      <button onclick="smoothScroll('#about');toggleMobile()">経営革新協会とは</button>
+      <button onclick="smoothScroll('#programs');toggleMobile()">活動内容</button>
+      <button onclick="smoothScroll('#course');toggleMobile()">実践講座</button>
+      <button onclick="smoothScroll('#benefits');toggleMobile()">ベネフィット</button>
+      <button onclick="smoothScroll('#pricing');toggleMobile()">入会案内</button>
+      <button onclick="smoothScroll('#faq');toggleMobile()">よくある質問</button>
+      <button onclick="smoothScroll('#profile')">協会概要</button>
+    </div>
+    <div class="mobile-cta">
+      <button class="btn btn-outline"
+        onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">入会を検討する</button>
+      <button class="btn btn-primary"
+        onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">まずは相談する</button>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-label="ファーストビュー">
+    <div class="hero-bg">
+      <img src="https://banso-preview1.site/wp-content/uploads/2026/06/AdobeStock_512933483-scaled.jpeg"
+        alt="経営革新協会の活動風景">
+    </div>
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-badge" id="heroBadge">
+            <span class="dot"></span>
+            <span>中小企業庁認定 経営革新等支援機関</span>
+          </div>
+          <h1 id="heroTitle">
+            未来を描き、<br>
+            そのビジョンを<span class="accent">"動かす"</span>経営へ。
+          </h1>
+          <p class="hero-sub" id="heroSub">
+            挑戦を具体的なアクションプランへ変革。<br>
+            学び、つながり、実行する経営者のコミュニティ。
+          </p>
+          <div class="hero-ctas" id="heroCtas">
+            <button class="btn btn-lg btn-white"
+              onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+              まずは相談する
+              <svg class=" arrow" xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+              </svg>
+            </button>
+            <button class="btn btn-lg btn-primary" onclick="smoothScroll('#pricing')">入会案内を見る</button>
+          </div>
+          <div class="hero-pillars" id="heroPillars">
+            <div class="pillar-card">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25">
+                </path>
+              </svg>
+              <span class="pillar-title">経営革新等支援機関</span>
+              <span class="pillar-desc">中小企業庁認定の「経営革新等支援機関」としての専門</span>
+            </div>
+            <div class="pillar-card">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z">
+                </path>
+              </svg>
+              <span class="pillar-title">女性会長就任</span>
+              <span class="pillar-desc">初の40代女性会長が誕生！</span>
+            </div>
+            <div class="pillar-card">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z">
+                </path>
+              </svg>
+              <span class="pillar-title">強力ネットワーク</span>
+              <span class="pillar-desc">≪国会議員および専門家とのパイプ≫</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+
+  <section class="news-section" id="news">
+    <div class="container">
+      <div class="news-heading">
+        <span class="section-label">NEWS</span>
+        <h2 class="section-title">ニュース/最新情報</h2>
+      </div>
+
+      <div class="news-list">
+
+
+        <div class="news-item" onclick="location.href='news/news-05.html'">
+          <div class="news-head">
+            <time>2026.07.03</time>
+            <h3>8月度 勉強会開催のお知らせ</h3>
+          </div>
+          <div class="news-body">
+            <div class="news-thumb">
+              <img
+                src="https://banso-preview1.site/wp-content/uploads/2026/07/7BDC6F47-E6B3-4BCE-9B60-DC909000289E_cut.jpg"
+                alt="8月度 勉強会開催のお知らせ">
+            </div>
+            <div class="news-excerpt">
+              売上を10倍に高める潜在意識の使い方<br>
+              今回は、ライブドアで300億円事業を創ったプロデューサーであり、「ロジカル潜在意識メソッド」の開発者でもある石山善章氏を講師にお迎えし、「売上を10倍に高める潜在意識の使い方」をテーマにご講演いただきます。<br><br>
+              <a href="https://forms.gle/kxTccVciaaESc7vD6"
+                target="_blank">https://forms.gle/kxTccVciaaESc7vD6</a><br><br>
+
+              開催概要<br>
+              日時：2026年8月24日（月）17:00～18:30<br>
+              会場：衆議院第2議員会館<br>
+              参加費：無料（事前申込制）
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item" onclick="location.href='news/news-04.html'">
+          <div class="news-head">
+            <time>2026.06.25</time>
+            <h3>「日本経営力アワード」開催のお知らせ</h3>
+          </div>
+          <div class="news-body">
+            <div class="news-thumb">
+              <img src="https://banso-preview1.site/wp-content/uploads/2026/06/アワード-_メタ広告用画像.png" alt="日本経営力アワード">
+            </div>
+            <div class="news-excerpt">
+              経済エンタメ番組「REAL VALUE」で注目を集める小塚祥吾氏・連続起業家・投資家の恵島良太郎氏らを審査員に迎え、日本経営力アワードを開催。<br>
+              プレゼン挑戦者として登壇いただく経営者だけでなく、オーディエンス参加者も募集しております。<br>
+              著名経営者による審査や交流会を通じて、経営のヒントや新たなビジネスチャンスにつながる場をご用意しています。<br><br>
+              お申込みは以下リンクよりお願いいたします。<br>
+              <a href="https://forms.gle/sfvKBy9G5N63o1iz5"
+                target="_blank">https://forms.gle/sfvKBy9G5N63o1iz5</a><br><br>
+
+              開催概要<br>
+              日時：2026年7月22日（水）16:00～<br>
+              会場：衆議院第1議員会館<br>
+              参加費：無料（事前申込制）
+            </div>
+          </div>
+        </div>
+
+        <a href="news/news-01.html" class="news-item">
+          <div class="news-head">
+            <time>2026.06.18</time>
+            <h3>【参加無料】特別講演会開催のお知らせ</h3>
+          </div>
+          <div class="news-body">
+            <div class="news-thumb">
+              <img src="https://banso-preview1.site/wp-content/uploads/2026/06/meta広告1-1.png" alt="">
+            </div>
+            <div class="news-excerpt">
+              今回は、老舗書店として知られる有隣堂の代表取締役社長・松信健太郎氏をお迎えし、「老舗書店はなぜ進化できたのか」をテーマにご講演いただきます。<br>
+
+              開催概要<br>
+              日時：2026年6月23日（月）17:00～18:30<br>
+              会場：衆議院第2議員会館（永田町）<br>
+              講師：有隣堂 代表取締役社長 松信健太郎氏<br>
+              参加費：無料<br>
+            </div>
+          </div>
+        </a>
+
+
+        <a href="news/news-02.html" class="news-item">
+          <div class="news-head">
+            <time>2026.06.12</time>
+            <h3>「日本経営力アワード」開催のお知らせ</h3>
+          </div>
+          <div class="news-body">
+            <div class="news-thumb">
+              <img src="https://banso-preview1.site/wp-content/uploads/2026/06/SNS用最終-1.png" alt="">
+            </div>
+            <div class="news-excerpt">
+              一般社団法人 経営革新協会主催による「日本経営力アワード」を開催いたします。<br>
+
+              本アワードは、挑戦する経営者を称え、磨き、つなぐことを目的としたイベントです。当日は経営者によるプレゼンテーションのほか、参加者同士の交流会も予定しております。<br>
+
+              開催概要<br>
+              日時：2026年7月22日（水）16:00～<br>
+              会場：衆議院第1議員会館<br>
+              参加費：無料（事前申込制）
+              <br>
+            </div>
+          </div>
+        </a>
+
+        <a href="news/news-03.html" class="news-item">
+          <div class="news-head">
+            <time>2026.06.10</time>
+            <h3>ホームページをリニューアルしました</h3>
+          </div>
+          <div class="news-body no-thumb">
+            <div class="news-excerpt">
+              一般社団法人 経営革新協会の公式ホームページリニューアルしました。<br>
+              より見やすく、分かりやすいサイトを目指し、デザインや構成を一新しております。今後も皆様に有益な情報をお届けできるよう、内容の充実に努めてまいります。<br>
+
+              引き続きご愛顧のほど、よろしくお願いいたします。<br>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="news-more">
+        <a href="news/news.html" class="btn btn-outline">ニュース一覧</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">ABOUT US</span>
+        <h2 class="section-title" id="about-heading">経営革新協会とは</h2>
+        <p class="section-subtitle">学び、つながり、実行する。<br>経営を"前に進める"ためのリアルな時間。</p>
+      </div>
+      <div class="about-grid">
+        <!-- Card 1 -->
+        <div class="about-card anim delay-1">
+          <div class="about-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+              stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z">
+              </path>
+            </svg>
+          </div>
+          <h3>中小企業庁認定「経営革新等支援機関」</h3>
+          <p class="about-subtitle"></p>
+          <ul class="about-list">
+            <li><span class="dot"></span>経営プログラム策定支援</li>
+            <li><span class="dot"></span>「経営革新計画」「事業再構築補助金」確認書発行</li>
+            <li><span class="dot"></span>補助金・制度活用サポート<br>👉 計画作成だけで終わらない<br>👉 実行まで落とし込む伴走支援
+            </li>
+          </ul>
+        </div>
+        <!-- Card 2 (Featured) -->
+        <div class="about-card featured anim delay-2">
+          <div class="about-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+              stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z">
+              </path>
+            </svg>
+          </div>
+          <h3>女性会長就任!</h3>
+          <p class="about-subtitle">新しい風でコミュニティを進化</p>
+          <ul class="about-list">
+            <li><span class="dot"></span>初の40代女性会長が誕生！</li>
+            <li><span class="dot"></span>協会そのものが革新フェーズへ</li>
+            <li><span class="dot"></span>“次世代型”成長支援コミュニティへ進化</li>
+          </ul>
+          <div class="about-president">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/S__155738287.jpg" alt="会長">
+            <div>
+              <p class="label">会長</p>
+              <p class="name">鈴木光代</p>
+              <p class="label">株式会社ＭＴＴ<br>代表取締役</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="about-card anim delay-3">
+          <div class="about-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+              stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z">
+              </path>
+            </svg>
+          </div>
+          <h3>強力ネットワークによるフルサポート</h3>
+          <p class="about-subtitle">👉 必要な時に適切な専門家へつなぐ！</p>
+          <ul class="about-list">
+            <li><span class="dot"></span>　≪国会議員および専門家とのパイプ≫</li>
+            <li><span class="dot"></span>財務経理</li>
+            <li><span class="dot"></span>法務</li>
+            <li><span class="dot"></span>ビジネスマッチング</li>
+            <li><span class="dot"></span>各種助成金申請</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== VIDEO ===== -->
+  <section style="max-width:960px; margin:80px auto; padding:0 20px;">
+
+    <div class="anim" style="text-align:center; margin-bottom:4rem;">
+      <span class="section-label">MOVIE</span>
+
+      <h2 class="section-title" id="about-heading">
+        鈴木会長からのご挨拶
+      </h2>
+
+      <p class="section-subtitle">
+        経営革新協会が大切にしている想いや、活動への考え方を動画でご覧ください。
+      </p>
+    </div>
+
+    <div class="movie-wrap">
+
+      <video id="movie" controls="" playsinline=""
+        poster="https://banso-preview1.site/wp-content/uploads/2026/06/movie-thumb-scaled.webp"
+        style="width:100%; border-radius:24px; display:block;">
+        <source src="https://banso-preview1.site/wp-content/uploads/2026/06/intro.mp4">
+      </video>
+
+    </div>
+
+  </section>
+
+
+  <!-- ===== MOVIE SECTION ===== -->
+
+
+
+
+
+
+  <!-- ===== PROGRAMS ===== -->
+  <section class="programs" id="programs" aria-labelledby="programs-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">PROGRAMS</span>
+        <h2 class="section-title" id="programs-heading">活動内容</h2>
+        <p class="section-subtitle">経営革新協会は3つの柱で、あなたのビジネスを支援します</p>
+      </div>
+      <div class="programs-grid">
+        <!-- Program 1 -->
+        <div class="program-card anim delay-1">
+          <div class="program-bar bar-primary"></div>
+          <div class="program-body">
+            <span class="program-category">PROGRAM 01</span>
+            <div class="program-header">
+              <div class="program-icon icon-primary">
+                <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z">
+                  </path>
+                </svg>
+              </div>
+              <h3>経営プログラム設計支援</h3>
+            </div>
+            <p class="program-content-label">内容</p>
+            <ul class="program-list">
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>経営戦略設計</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>制度活用アドバイス</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>確認書発行</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>成長ロードマップ作成</li>
+            </ul>
+            <div class="program-benefits">
+              <p class="program-content-label">ベネフィット</p>
+              <div class="program-tags">
+                <span class="tag">方向性が明確になる</span>
+                <span class="tag">実行に落ちる計画</span>
+                <span class="tag">制度を戦略的に活用</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Program 2 -->
+        <div class="program-card anim delay-2">
+          <div class="program-bar bar-dark"></div>
+          <div class="program-body">
+            <span class="program-category">PROGRAM 02</span>
+            <div class="program-header">
+              <div class="program-icon icon-dark">
+                <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5">
+                  </path>
+                </svg>
+              </div>
+              <h3>実践型勉強会・セミナー</h3>
+            </div>
+            <p class="program-content-label">内容</p>
+            <ul class="program-list">
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>成長企業事例の共有</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>資金戦略セミナー</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>専門家との連携講座</li>
+            </ul>
+            <div class="program-benefits">
+              <p class="program-content-label">ベネフィット</p>
+              <div class="program-tags">
+                <span class="tag">視野が広がる</span>
+                <span class="tag">すぐ使えるノウハウ</span>
+                <span class="tag">成長志向の仲間</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Program 3 -->
+        <div class="program-card anim delay-3">
+          <div class="program-bar bar-accent"></div>
+          <div class="program-body">
+            <span class="program-category">PROGRAM 03</span>
+            <div class="program-header">
+              <div class="program-icon icon-accent">
+                <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z">
+                  </path>
+                </svg>
+              </div>
+              <h3>経営者ネットワーク・懇親会</h3>
+            </div>
+            <p class="program-content-label">内容</p>
+            <ul class="program-list">
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>少人数ディスカッション</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>ビジネスマッチング</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                </svg>成果発表会</li>
+            </ul>
+            <div class="program-benefits">
+              <p class="program-content-label">ベネフィット</p>
+              <div class="program-tags">
+                <span class="tag">チャンスが生まれる</span>
+                <span class="tag">紹介が自然に広がる</span>
+                <span class="tag">孤独な経営から脱却</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLUB ACTIVITIES -->
+  <section class="club-section">
+    <div class="container">
+      <div class="club-wrap">
+        <div class="club-image-main">
+          <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_activities_01.jpg" alt="ゴルフ部">
+        </div>
+        <div class="club-content">
+          <span class="club-label">CLUB ACTIVITIES</span>
+          <h3 class="club-title">
+            部活動
+          </h3>
+          <p class="club-text">
+            趣味を通じて経営者同士の交流を深めています。<br>
+            ビジネスを離れた本音のコミュニケーションが、
+            新たな信頼関係やビジネスチャンスを生み出します。
+          </p>
+          <ul class="club-list">
+            <li>ゴルフ部</li>
+            <li>女子会部</li>
+            <li>中小企業DX学習部</li>
+            <li>グルメ部</li>
+          </ul>
+          <div class="club-gallery-wrap">
+            <div class="club-gallery" id="clubGallery">
+              <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_activities_02.jpg" alt="">
+              <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_activities_03.jpg" alt="">
+              <img
+                src="https://banso-preview1.site/wp-content/uploads/2026/06/74C6C294-5986-423B-91AF-ECC76D2511AB-scaled.jpg"
+                alt="">
+              <img
+                src="https://banso-preview1.site/wp-content/uploads/2026/06/A337C274-622F-46BB-8F91-8507E530228D-scaled.jpg"
+                alt="">
+            </div>
+            <button class="gallery-next" id="galleryNext">
+              →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="harada-section">
+    <div class="container">
+      <div class="harada-wrap">
+        <div class="harada-content">
+          <span class="harada-label">
+            HARADA SCHOOL
+          </span>
+          <h2 class="harada-title">
+            原田塾
+          </h2>
+          <p class="harada-text">
+            毎月第一木曜日に政治・経済・法律に精通した
+            原田義昭会長が塾頭となって、
+            渋沢栄一の「論語と算盤」をベースにした
+            中小企業経営指南を行います。
+          </p>
+          <p class="harada-text">
+            また、原田会長が直近で起こった事柄の雑感も聞けるので、
+            経営者として世情に大局的な視点を持つ勉強ができる場でもあります。
+          </p>
+          <p class="harada-text">
+            毎回終了後には原田会長を囲んだ懇親会を開催。
+            会員限定で少人数に厳選しています。
+          </p>
+          <div class="harada-gallery">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_haradaschool_02.jpg" alt="">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_haradaschool_03.jpg" alt="">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_haradaschool_04.jpg" alt="">
+          </div>
+        </div>
+        <div class="harada-main-image anim delay-2">
+          <img src="https://banso-preview1.site/wp-content/uploads/2026/06/img_haradaschool_01.jpg" alt="原田塾">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- ===== COURSE ===== -->
+  <section class="course" id="course" aria-labelledby="course-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">COURSE</span>
+        <h2 class="section-title" id="course-heading">次のステージへ進む経営者のための実践講座</h2>
+        <p class="section-subtitle">4つのステップで、あなたの経営を次のレベルへ引き上げます</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-items">
+          <div class="timeline-item anim anim-left delay-1">
+            <div class="timeline-circle">01</div>
+            <div class="timeline-content">
+              <h3>成長企業リアル事例</h3>
+              <p>実際に経営革新で成功した企業の事例から学びます。リアルな体験談から、成功のエッセンスを吸収。</p>
+            </div>
+          </div>
+          <div class="timeline-item anim anim-left delay-2">
+            <div class="timeline-circle">02</div>
+            <div class="timeline-content">
+              <h3>実践ワーク</h3>
+              <p>目標整理 → 次の一手 → 簡易ロードマップ。ワークショップ形式で、自社に即した計画を策定します。</p>
+            </div>
+          </div>
+          <div class="timeline-item anim anim-left delay-3">
+            <div class="timeline-circle">03</div>
+            <div class="timeline-content">
+              <h3>少人数ディスカッション</h3>
+              <p>課題共有からネットワーク形成へ。少人数だからこそ深い対話が生まれ、具体的なアドバイスが得られます。</p>
+            </div>
+          </div>
+          <div class="timeline-item anim anim-left delay-4">
+            <div class="timeline-circle">04</div>
+            <div class="timeline-content">
+              <h3>懇親会（希望者）</h3>
+              <p>リラックスした雰囲気で、さらに深いつながりを。ビジネスの新たなチャンスが生まれる場です。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gains-box anim delay-8">
+        <h3>この実践講座で得られること</h3>
+        <ul class="gains-list">
+          <li>
+            <span class="check-circle"><svg xmlns="https://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+              </svg></span>
+            方向性が明確になる
+          </li>
+          <li>
+            <span class="check-circle"><svg xmlns="https://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+              </svg></span>
+            制度の使い所がわかる
+          </li>
+          <li>
+            <span class="check-circle"><svg xmlns="https://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+              </svg></span>
+            成長志向の経営者と出会える
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS ===== -->
+  <section class="benefits" id="benefits" aria-labelledby="benefits-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">BENEFITS</span>
+        <h2 class="section-title" id="benefits-heading">経営革新協会で得られること</h2>
+        <p class="section-subtitle">入会することで、あなたの経営に4つの変化が生まれます</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card anim delay-1">
+          <div class="benefit-number">01</div>
+          <div>
+            <div class="benefit-title">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418">
+                </path>
+              </svg>
+              <h3>経営の軸が明確になる</h3>
+            </div>
+            <p>経営プログラムを共に設計し、自社のビジョンと戦略を明文化します。</p>
+          </div>
+        </div>
+        <div class="benefit-card anim delay-2">
+          <div class="benefit-number">02</div>
+          <div>
+            <div class="benefit-title">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z">
+                </path>
+              </svg>
+              <h3>制度を戦略的に使える</h3>
+            </div>
+            <p>経営革新計画・補助金・助成金を、専門家サポートで最大限活用。</p>
+          </div>
+        </div>
+        <div class="benefit-card anim delay-3">
+          <div class="benefit-number">03</div>
+          <div>
+            <div class="benefit-title">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418">
+                </path>
+              </svg>
+              <h3>強力なネットワークにアクセス</h3>
+            </div>
+            <p>士業・コンサルタント・経営者仲間とのつながりで、新しいチャンスが広がります。</p>
+          </div>
+        </div>
+        <div class="benefit-card anim delay-4">
+          <div class="benefit-number">04</div>
+          <div>
+            <div class="benefit-title">
+              <svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+              </svg>
+              <h3>実行まで伴走支援</h3>
+            </div>
+            <p>計画で終わらせない。実行フェーズまで寄り添い、成果にコミットします。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE ===== -->
+  <section class="message" aria-labelledby="message-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:3rem;">
+        <span class="section-label" style="color:#991414;">MESSAGE</span>
+        <h2 class="section-title" id="message-heading" style="color:#fff;">会長メッセージ</h2>
+      </div>
+      <div class="message-inner anim delay-2">
+        <div class="message-photo">
+          <img src="https://banso-preview1.site/wp-content/uploads/2026/06/S__155738287.jpg" alt="会長">
+          <div class="frame"></div>
+        </div>
+        <div class="message-quote">
+          <svg xmlns="https://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z">
+            </path>
+          </svg>
+          <blockquote>
+            経営は、挑戦の連続です。しかし、一人で挑む必要はありません。
+            私たちは共に学び、共に考え、共に成長する仲間です。
+            あなたの挑戦を、全力で応援します。
+            次のステージへ、一緒に踏み出しましょう。
+          </blockquote>
+          <div class="message-author">
+            <p class="label">会長</p>
+            <p class="name">鈴木光代</p>
+            <p class="label">株式会社ＭＴＴ<br>代表取締役</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">VOICE</span>
+        <h2 class="section-title" id="testimonials-heading">会員の声</h2>
+        <p class="section-subtitle">経営革新協会で変化を実感した会員の声をご紹介します</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card anim delay-1">
+          <span class="testimonial-tag">計画が明確になった</span>
+          <svg class="quote-icon" xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z">
+            </path>
+          </svg>
+          <p class="quote-text">経営革新計画を策定したことで、自社の強みと課題が明確になりました。漠然とした不安が、具体的な行動計画に変わった瞬間は感動でした。</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <p class="company">株式会社A（製造業）</p>
+              <p class="role">代表取締役</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card anim delay-2">
+          <span class="testimonial-tag">紹介が生まれた</span>
+          <svg class="quote-icon" xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z">
+            </path>
+          </svg>
+          <p class="quote-text">懇親会で出会った経営者から、新しいビジネスパートナーを紹介いただきました。協会のネットワークの力を実感しています。</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">B</div>
+            <div>
+              <p class="company">株式会社B（IT企業）</p>
+              <p class="role">代表取締役</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card anim delay-3">
+          <span class="testimonial-tag">資金調達に成功した</span>
+          <svg class="quote-icon" xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z">
+            </path>
+          </svg>
+          <p class="quote-text">補助金の申請で、専門家の方に丁寧にサポートいただきました。おかげで資金調達に成功し、新事業をスタートできました。</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div>
+              <p class="company">株式会社C（サービス業）</p>
+              <p class="role">取締役</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing" aria-labelledby="pricing-heading">
+    <div class="container">
+      <div class="anim" style="text-align:center; margin-bottom:4rem;">
+        <span class="section-label">JOIN US</span>
+        <h2 class="section-title" id="pricing-heading">入会案内</h2>
+        <p class="pricing-message">未来は、待つものではなく、動かすもの。<br>次の一歩を、ここから。</p>
+      </div>
+      <div class="pricing-card anim anim-scale delay-2">
+        <div class="pricing-header"><span>MEMBERSHIP</span></div>
+        <div class="pricing-body">
+          <div class="price-row" style="margin-bottom:1.5rem; border-bottom:1px solid #e5e5e5; padding-bottom:1rem;">
+            <span class="price-label">入会金</span>
+            <div><span class="price-amount">30,000</span><span class="price-unit">円（税別）</span></div>
+          </div>
+          <div class="price-row">
+            <span class="price-label">年会費</span>
+            <div><span class="price-amount">60,000</span><span class="price-unit">円（税別）</span></div>
+          </div>
+          <div class="pricing-includes">
+            <p class="pricing-includes-label">会員特典</p>
+            <ul class="pricing-list">
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+                </svg>勉強会・セミナーへの無料参加</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+                </svg>経営革新計画の策定サポート</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+                </svg>専門家ネットワークへのアクセス</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+                </svg>懇親会・マッチングイベントへの参加</li>
+              <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"></path>
+                </svg>会員限定コンテンツの閲覧</li>
+            </ul>
+          </div>
+          <div class="pricing-note">
+            ※ 親睦会・部会等は実費が別途かかる場合があります。<br>
+            ※ 詳細はお問い合わせください。
+          </div>
+          <div class="pricing-ctas">
+
+            <button class="btn btn-lg btn-primary"
+              onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+
+              まずは相談する
+
+              <svg class="arrow" xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+              </svg>
+
+            </button>
+
+            <button class="btn btn-lg btn-outline"
+              onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+
+              入会を検討する
+
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="faq-wrapper">
+        <div class="anim" style="text-align:center; margin-bottom:4rem;">
+          <span class="section-label">FAQ</span>
+          <h2 class="section-title" id="faq-heading">よくある質問</h2>
+          <p class="section-subtitle">ご不明点がございましたら、お気軽にお問い合わせください</p>
+        </div>
+        <div class="anim delay-2">
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <button class="faq-question">
+              入会の流れを教えてください
+              <svg class="chevron" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                まずはお問い合わせフォームまたはお電話にてご連絡ください。担当者との面談を経て、入会手続きへと進みます。面談では協会の活動内容やメリットについて詳しくご説明いたします。</div>
+            </div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <button class="faq-question">
+              どのくらいの頻度でイベントがありますか？
+              <svg class="chevron" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">原田塾が月一回、勉強会が隔月程度、ほかに親睦会、トークセッションなどございますので、ご都合に合わせてお選びいただけます。</div>
+            </div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <button class="faq-question">
+              どのような業種の方が多いですか？
+              <svg class="chevron" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">IT、サービス業、飲食業、製造業、医療・福祉、旅行業、コンサル業、建設業、広告業など幅広い業種の経営者が参加されています。</div>
+            </div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <button class="faq-question">
+              具体的にどのような相談ができますか？
+              <svg class="chevron" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">経営戦略の策定、経営革新計画の作成、補助金・助成金の活用、資金調達、人材育成、法務・税務に関するご相談など、経営全般について専門家がサポートいたします。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile" id="profile" aria-labelledby="profile-heading">
+
+    <div class="container profile-container">
+
+      <div class="profile-heading anim">
+        <span class="profile-label">PROFILE</span>
+        <h2 class="profile-title" id="profile-heading">
+          協会概要
+        </h2>
+      </div>
+
+      <!-- タブ -->
+
+      <div class="profile-tabs">
+        <button class="profile-tab active" data-tab="overview">
+          協会概要
+        </button>
+
+        <button class="profile-tab" data-tab="directors">
+          理事紹介
+        </button>
+      </div>
+
+      <!-- 協会概要 -->
+
+      <div id="overview" class="profile-content active">
+
+        <div class="profile-table">
+
+          <div class="profile-row">
+            <div class="profile-th">名称</div>
+            <div class="profile-td">一般社団法人 経営革新協会</div>
+          </div>
+
+          <div class="profile-row">
+            <div class="profile-th">設立</div>
+            <div class="profile-td">2008年12月</div>
+          </div>
+
+          <div class="profile-row">
+            <div class="profile-th">最高顧問</div>
+            <div class="profile-td">
+              原田 義昭
+              <span>（元環境大臣・弁護士）</span>
+            </div>
+          </div>
+
+          <div class="profile-row">
+            <div class="profile-th">会長</div>
+            <div class="profile-td">
+              鈴木 光代
+              <span>（株式会社ＭＴＴ 代表取締役）</span>
+            </div>
+          </div>
+
+          <div class="profile-row">
+            <div class="profile-th">ファウンダー及び代表理事</div>
+            <div class="profile-td">
+              宮澤 猛
+              <span>（株式会社東京中央経営ホールディングス　代表取締役）</span>
+            </div>
+          </div>
+          <div class="profile-row">
+            <div class="profile-th">理事</div>
+            <div class="profile-td">
+              ● 三浦 忠（ジェイマインズ株式会社 代表取締役、一般社団法人東京和僑会　創設者兼会長）<br>
+              ● 花野 雅彦（株式会社アークリンク 代表取締役、代表取締役、一般社団法人SDGs大学　副理事長、FSUN：国連支援財団　日本代表副責任者、一般社団法人東京和僑会副会長）<br>
+              ● 丸山大喜（一般社団法人日本投資協会　会長）<br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 理事紹介 -->
+      <div id="directors" class="profile-content">
+        <div class="director-top">
+          <div class="director-card large">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/harada.jpg" alt="">
+            <div class="director-info">
+              <p class="position">最高顧問</p>
+              <h3>原田 義昭</h3>
+              <p class="company">元環境大臣・弁護士</p>
+            </div>
+          </div>
+          <div class="director-card large">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/miyazawa.jpg" alt="">
+            <div class="director-info">
+              <p class="position">ファウンダー及び代表理事</p>
+              <h3>宮澤 猛</h3>
+              <p class="company">株式会社東京中央経営ホールディングス　代表取締役</p>
+            </div>
+          </div>
+          <div class="director-card large">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/S__155738287.jpg" alt="">
+            <div class="director-info">
+              <p class="position">会長</p>
+              <h3>鈴木 光代</h3>
+              <p class="company">株式会社ＭＴＴ</p>
+            </div>
+          </div>
+        </div>
+        <div class="director-grid">
+
+          <div class="director-card">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/miura.jpg" alt="">
+            <div class="director-info">
+              <p class="position">理事</p>
+              <h3>三浦 忠</h3>
+              <p class="company">ジェイマインズ株式会社 代表取締役<br>一般社団法人東京和僑会　創設者兼会長</p>
+            </div>
+          </div>
+          <div class="director-card">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/hanano.jpg" alt="">
+            <div class="director-info">
+              <p class="position">理事</p>
+              <h3>花野 雅彦</h3>
+              <p class="company">株式会社アークリンク 代表取締役<br>一般社団法人SDGs大学　副理事長<br>FSUN：国連支援財団　日本代表副責任者<br>一般社団法人東京和僑会副会長</p>
+            </div>
+          </div>
+
+          <!--<div class="director-card">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/asano.jpg" alt="">
+            <div class="director-info">
+              <p class="position">理事</p>
+              <h3>浅野 泰生</h3>
+              <p class="company">株式会社think shift 代表取締役</p>
+            </div>
+          </div>  -->
+
+          <div class="director-card">
+            <img src="https://banso-preview1.site/wp-content/uploads/2026/06/宣材写真（丸山大喜）.jpg" alt="">
+            <div class="director-info">
+              <p class="position">理事</p>
+              <h3>丸山大喜</h3>
+              <p class="company">一般社団法人日本投資協会　会長</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" aria-label="入会への行動喚起">
+    <div class="container anim">
+      <h2>あなたの経営を、次のステージへ。</h2>
+      <p>まずはお気軽にご相談ください。</p>
+      <div class="cta-banner-btns">
+        <button class="btn btn-lg btn-white" onclick="location.href='https://1lejend.com/stepmail/kd.php?no=dtmfJqOA'">
+          まずは相談する
+          <svg class="arrow" xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+            stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+          </svg>
+        </button>
+        <button class="btn btn-lg btn-ghost-white" onclick="smoothScroll('#pricing')">入会案内を見る</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <div class="f-icon"><img src="https://banso-preview1.site/wp-content/uploads/2026/06/cropped-favicon-1.png"
+                alt="お問い合わせ"></div>
+            <div>
+              <div class="f-sub">一般社団法人</div>
+              <div class="f-main">経営革新協会</div>
+            </div>
+          </div>
+          <p class="footer-desc">中小企業の経営を前に進めるため、学び・つながり・実行支援を提供する協会です。</p>
+        </div>
+        <div>
+          <h4>ナビゲーション</h4>
+          <div class="footer-links">
+            <button onclick="smoothScroll('#about')">経営革新協会とは</button>
+            <button onclick="smoothScroll('#programs')">活動内容</button>
+            <button onclick="smoothScroll('#course')">実践講座</button>
+            <button onclick="smoothScroll('#benefits')">ベネフィット</button>
+            <button onclick="smoothScroll('#pricing')">入会案内</button>
+            <button onclick="smoothScroll('#faq')">よくある質問</button>
+            <button onclick="smoothScroll('#profile')">協会概要</button>
+          </div>
+        </div>
+        <div>
+          <h4>その他</h4>
+          <div class="footer-links">
+            <a href="/privacy">プライバシーポリシー</a>
+            <a href="/overview">協会概要</a>
+            <a href="/news">ニュース</a>
+            <a href="/reports">イベントレポート</a>
+          </div>
+        </div>
+        <div>
+          <h4>お問い合わせ</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+              </svg>
+              <span>東京都千代田区神田三崎町2-7-6　高松ビル8F ジェイマインズ（株）内</span>
+            </li>
+            <li>
+              <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z">
+                </path>
+              </svg>
+              <a href="tel:03-6272-3778">03-6272-3778</a>
+            </li>
+            <li>
+              <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75">
+                </path>
+              </svg>
+              <a href="mailto:info@keieikakushin.or.jp">info@keieikakushin.or.jp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 一般社団法人 経営革新協会 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Smooth scroll
+    function smoothScroll(selector) {
+      var el = document.querySelector(selector);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Header scroll effect
+    var header = document.getElementById('header');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu
+    var overlay = document.getElementById('mobileOverlay');
+    var panel = document.getElementById('mobilePanel');
+
+    function toggleMobile() {
+      overlay.classList.toggle('open');
+      panel.classList.toggle('open');
+      document.body.style.overflow = panel.classList.contains('open') ? 'hidden' : '';
+    }
+
+    // Hero entrance animation
+    window.addEventListener('load', function () {
+      document.getElementById('heroBadge').classList.add('loaded');
+      document.getElementById('heroTitle').classList.add('loaded');
+      document.getElementById('heroSub').classList.add('loaded');
+      document.getElementById('heroCtas').classList.add('loaded');
+      document.getElementById('heroPillars').classList.add('loaded');
+    });
+
+    window.addEventListener('load', function () {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          setTimeout(() => {
+            target.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }, 100);
+        }
+      }
+    });
+
+    // Scroll animations with IntersectionObserver
+    var animElements = document.querySelectorAll('.anim');
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    animElements.forEach(function (el) {
+      observer.observe(el);
+    });
+
+    // FAQ accordion
+    function toggleFaq(item) {
+      var isOpen = item.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.faq-item').forEach(function (faqItem) {
+        faqItem.classList.remove('open');
+      });
+      // Toggle current
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    }
+
+    document.querySelectorAll('.profile-tab').forEach(tab => {
+
+      tab.addEventListener('click', () => {
+
+        document.querySelectorAll('.profile-tab').forEach(btn => {
+          btn.classList.remove('active');
+        });
+
+        document.querySelectorAll('.profile-content').forEach(content => {
+          content.classList.remove('active');
+        });
+
+        tab.classList.add('active');
+
+        document
+          .getElementById(tab.dataset.tab)
+          .classList.add('active');
+
+      });
+
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const gallery = document.getElementById('clubGallery');
+      const nextBtn = document.getElementById('galleryNext');
+
+      const images = gallery.querySelectorAll('img');
+      const total = images.length;
+
+      let current = 0;
+
+      nextBtn.addEventListener('click', () => {
+
+        current++;
+
+        if (current > total - 2) {
+          current = 0;
+        }
+
+        const itemWidth =
+          images[0].offsetWidth + 15;
+
+        gallery.style.transform =
+          `translateX(-${current * itemWidth}px)`;
+
+      });
+
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const video = document.getElementById('kvMovie');
+      const button = document.getElementById('kvMovieButton');
+
+      if (!video || !button) return;
+
+      button.addEventListener('click', function () {
+
+        if (video.paused) {
+
+          video.play();
+          video.setAttribute('controls', 'controls');
+          button.style.display = 'none';
+
+        }
+
+      });
+
+      video.addEventListener('pause', function () {
+        button.style.display = 'flex';
+      });
+
+      video.addEventListener('ended', function () {
+        button.style.display = 'flex';
+      });
+
+    });
+
+
+    const movie = document.getElementById('movie');
+    const moviePlayBtn = document.getElementById('moviePlayBtn');
+
+    moviePlayBtn.addEventListener('click', () => {
+
+      movie.play();
+
+      moviePlayBtn.classList.add('hide');
+
+    });
+
+    movie.addEventListener('pause', () => {
+
+      moviePlayBtn.classList.remove('hide');
+
+    });
+
+    movie.addEventListener('ended', () => {
+
+      moviePlayBtn.classList.remove('hide');
+
+    });
+
+    const video = document.getElementById('topMovie');
+    const btn = document.getElementById('moviePlayBtn');
+
+    btn.addEventListener('click', () => {
+
+      if (video.paused) {
+        video.play();
+        btn.classList.add('hide');
+      } else {
+        video.pause();
+        btn.classList.remove('hide');
+      }
+
+    });
+
+    video.addEventListener('pause', () => {
+      btn.classList.remove('hide');
+    });
+
+    video.addEventListener('play', () => {
+      btn.classList.add('hide');
+    });
+
+    video.addEventListener('ended', () => {
+      btn.classList.remove('hide');
+    });
+
+  </script>
+</body>
+
+</html>
